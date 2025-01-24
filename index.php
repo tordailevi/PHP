@@ -53,11 +53,13 @@
     $tomb3 = ["Tordai", "Levente"];
     echo "<br>Tömb:";
     print_r($tomb2);
+    array_push($tomb3, "Kacper");
+    echo "<br>Tömb2: ";
+    print_r($tomb2);
+    echo "<br>Tömb3: ";
+    print_r($tomb3);
 
     
-
-
-
 
     ?>
     <p>Ezt a HTML írta</p>
